@@ -2,7 +2,7 @@ package fundamentals.challenges;
 
 public class LogicalChallenge {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         // Works on Tuesday (V or F)
         // Works on Thursday (V or F)

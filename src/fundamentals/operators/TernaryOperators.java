@@ -2,7 +2,7 @@ package fundamentals.operators;
 
 public class TernaryOperators {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         double studentGrade = 7.6;
         String partialResult = studentGrade >= 5.0 ? "recovery" : "failed";

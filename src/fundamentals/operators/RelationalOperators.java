@@ -2,7 +2,7 @@ package fundamentals.operators;
 
 public class RelationalOperators {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         int a = 97;
         int b = 'a';

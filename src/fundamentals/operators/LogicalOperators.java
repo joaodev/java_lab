@@ -2,7 +2,7 @@ package fundamentals.operators;
 
 public class LogicalOperators {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         boolean condition1 = true;
         boolean condition2 = 3 > 7;
