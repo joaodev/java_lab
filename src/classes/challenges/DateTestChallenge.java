@@ -4,17 +4,27 @@ public class DateTestChallenge {
 
     public static void main(String[] args) {
 
-        DateChallenge d1 = new DateChallenge();
-        d1.day = 21;
-        d1.month = 1;
-        d1.year = 2026;
+        DateChallenge d1 = new DateChallenge(21, 1, 2026);
 
         var d2 = new DateChallenge();
         d2.day = 21;
         d2.month = 1;
         d2.year = 2026;
 
-        System.out.printf("%d-%d-%d\n", d1.year, d1.month, d1.day);
-        System.out.printf("%d/%d/%d", d2.day, d2.month, d2.year);
+        DateChallenge d3 = new DateChallenge();
+        d3.day = 21;
+        d3.year = 2026;
+
+        String date1 = d1.formatDateEN();
+
+        System.out.println(date1);
+        System.out.println(d2.formatDateBR());
+        System.out.println(d3.formatDateEN());
+
+        System.out.println();
+
+        d1.printDateEN();
+        d2.printDateBR();
+        d3.printDateEN();
     }
 }
