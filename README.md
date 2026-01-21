@@ -29,19 +29,12 @@ java_review/
 │   │   ├── loops/              # Estruturas de repetição (for, while, do-while)
 │   │   └── challenges/         # Desafios envolvendo controle de fluxo
 │   │
-│   ├── classes/                # Programação Orientada a Objetos
-│   │   ├── others/             # Conceitos de valores e referências
-│   │   ├── area/               # Exemplo de classe com métodos
-│   │   ├── product/            # Exemplo com sobrecarga e atributos estáticos
-│   │   └── challenges/         # Desafios com classes
-│   │       └── eat/            # Subpacote: relacionamento entre classes
-│   │
-│   ├── arrays/                 # Estruturas de arrays
-│   │   ├── challenges/         # Desafios com arrays
-│   │   └── others/             # Exemplos de arrays
-│   │
-│   └── collections/            # Coleções Java (List, Set, Queue, Map)
-│       └── (classes utilitárias e exemplos)
+│   └── classes/                # Programação Orientada a Objetos
+│       ├── others/             # Conceitos de valores e referências
+│       ├── area/               # Exemplo de classe com métodos
+│       ├── product/            # Exemplo com sobrecarga e atributos estáticos
+│       └── challenges/         # Desafios com classes
+│           └── eat/            # Subpacote: relacionamento entre classes
 │
 └── README.md                   # Este arquivo
 ```
@@ -134,30 +127,6 @@ java_review/
   - `Person.java` - Classe que representa pessoa
   - `Dinner.java` - Classe que relaciona pessoa e alimento
 
-### Arrays (Estruturas de Dados Sequenciais)
-
-- `ArrayExercise.java` - Exercício prático com arrays unidimensionais
-- `ForeachExercise.java` - Exemplo de foreach loop com arrays
-
-#### Others
-- `Equals.java` - Comparação de igualdade em arrays
-- `User.java` - Classe auxiliar para exemplos
-
-#### Challenges
-- `ArrayChallenge.java` - Desafio: calcular média de notas com array
-- `MatrixChallenge.java` - Desafio: trabalhar com matrizes bidimensionais
-
-### Collections (Coleções Java)
-
-- `UserList.java` - Exemplo de ArrayList com objetos User
-- `HashSetCollection.java` - Exemplo de HashSet e operações de conjunto
-- `MapCollection.java` - Exemplo de HashMap com chave-valor
-- `QueueCollection.java` - Exemplo de Queue (FIFO)
-- `DequeCollection.java` - Exemplo de Deque (fila de dupla extremidade)
-- `MessySet.java` - Exemplo de Set sem ordem garantida
-- `NotMessySet.java` - Exemplo de Set com ordem (TreeSet)
-- `User.java` - Classe auxiliar para exemplos de collections
-
 ## 🛠️ Pré-requisitos
 
 - **Java Development Kit (JDK)** 8 ou superior
@@ -237,24 +206,6 @@ java -cp out control.challenges.ForChallenge
 ✅ Atributos estáticos  
 ✅ Relacionamento entre classes
 
-### Arrays
-✅ Declaração e inicialização de arrays  
-✅ Acesso a elementos por índice  
-✅ Propriedade length  
-✅ Iteração com for tradicional  
-✅ Iteração com foreach  
-✅ Arrays multidimensionais (matrizes)  
-✅ Utilidade Arrays (toString, sort, etc)
-
-### Collections
-✅ List (ArrayList) - coleções ordenadas e mutáveis  
-✅ Set (HashSet, TreeSet) - coleções sem duplicatas  
-✅ Map (HashMap) - estrutura chave-valor  
-✅ Queue (LinkedList) - estrutura FIFO  
-✅ Deque - fila de dupla extremidade  
-✅ Iteração sobre coleções  
-✅ Operações comuns (add, remove, contains, etc)
-
 ## 🎯 Sugestões de Estudo
 
 1. **Comece pelos fundamentos**: Execute exemplos em `fundamentals/others/`
@@ -267,9 +218,6 @@ java -cp out control.challenges.ForChallenge
 8. **Introdução a OOP**: Aprenda conceitos de valores e referências em `classes/others/`
 9. **Trabalhe com classes**: Crie e estude classes em `classes/area/` e `classes/product/`
 10. **Projetos POO**: Implemente desafios práticos em `classes/challenges/`
-11. **Domine arrays**: Aprenda arrays em `arrays/` - base para coleções
-12. **Trabalhe com coleções**: Explore List, Set, Map e Queue em `collections/`
-13. **Integre tudo**: Combine POO + Arrays + Collections em projetos complexos
 
 ## 🤝 Contribuições
 
