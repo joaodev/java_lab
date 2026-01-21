@@ -2,35 +2,35 @@ package classes.challenges;
 
 public class DateChallenge {
 
-    int day;
-    int month;
-    int year;
+    public int day;
+    public int month;
+    public int year;
 
-    DateChallenge() {
+    public DateChallenge() {
         day = 1;
         month = 1;
         year = 1970;
     }
 
-    DateChallenge(int initialDay, int initialMonth, int initialYear) {
+    public DateChallenge(int initialDay, int initialMonth, int initialYear) {
         day = initialDay;
         month = initialMonth;
         year = initialYear;
     }
 
-    String formatDateEN() {
+    public String formatDateEN() {
         return String.format("%d-%d-%d\n", year, month, day);
     }
 
-    String formatDateBR() {
+    public String formatDateBR() {
         return String.format("%d/%d/%d", day, month, year);
     }
 
-    void printDateEN() {
+    public void printDateEN() {
         System.out.println(formatDateEN());
     }
 
-    void printDateBR() {
+    public void printDateBR() {
         System.out.println(formatDateBR());
     }
 }
