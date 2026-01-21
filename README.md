@@ -24,10 +24,17 @@ java_review/
 │   │   ├── strings/            # Manipulação de strings
 │   │   └── challenges/         # Desafios de aritmética e operações
 │   │
-│   └── control/                # Estruturas de controle de fluxo
-│       ├── conditionals/       # Condicionais (if, else, switch)
-│       ├── loops/              # Estruturas de repetição (for, while, do-while)
-│       └── challenges/         # Desafios envolvendo controle de fluxo
+│   ├── control/                # Estruturas de controle de fluxo
+│   │   ├── conditionals/       # Condicionais (if, else, switch)
+│   │   ├── loops/              # Estruturas de repetição (for, while, do-while)
+│   │   └── challenges/         # Desafios envolvendo controle de fluxo
+│   │
+│   └── classes/                # Programação Orientada a Objetos
+│       ├── others/             # Conceitos de valores e referências
+│       ├── area/               # Exemplo de classe com métodos
+│       ├── product/            # Exemplo com sobrecarga e atributos estáticos
+│       └── challenges/         # Desafios com classes
+│           └── eat/            # Subpacote: relacionamento entre classes
 │
 └── README.md                   # Este arquivo
 ```
@@ -96,6 +103,29 @@ java_review/
 - `ForChallenge.java` - Desafio: utilização de for
 - `WhileChallange.java` - Desafio: utilização de while
 - `WeekDayChallenge.java` - Desafio: dias da semana com switch
+
+### Classes (Programação Orientada a Objetos)
+
+#### Others
+- `ValueVsReference.java` - Diferença entre valores e referências
+- `NullValue.java` - Compreensão de null em Java
+
+#### Area
+- `AreaCircle.java` - Classe para cálculo de área de círculo
+- `AreaCircleTest.java` - Testes para a classe AreaCircle
+
+#### Product
+- `Product.java` - Classe de produto com cálculo de desconto
+- `ProductTest.java` - Testes para a classe Product
+
+#### Challenges
+- `DateChallenge.java` - Desafio: classe para manipulação de datas
+- `DateTestChallenge.java` - Testes para a classe DateChallenge
+- `InstanceChallenge.java` - Desafio: trabalhar com instâncias
+- `eat/` - Subpacote com desafio de relacionamento entre classes
+  - `Food.java` - Classe que representa alimento
+  - `Person.java` - Classe que representa pessoa
+  - `Dinner.java` - Classe que relaciona pessoa e alimento
 
 ## 🛠️ Pré-requisitos
 
@@ -167,6 +197,15 @@ java -cp out control.challenges.ForChallenge
 ✅ Break e continue  
 ✅ Combinações complexas de controle
 
+### Programação Orientada a Objetos
+✅ Definição de classes e atributos  
+✅ Métodos e construtores  
+✅ Sobrecarga de métodos  
+✅ Valores vs. Referências  
+✅ Null value  
+✅ Atributos estáticos  
+✅ Relacionamento entre classes
+
 ## 🎯 Sugestões de Estudo
 
 1. **Comece pelos fundamentos**: Execute exemplos em `fundamentals/others/`
@@ -176,6 +215,9 @@ java -cp out control.challenges.ForChallenge
 5. **Domine controle de fluxo**: Aprenda condicionais em `control/conditionals/`
 6. **Trabalhe com loops**: Estude loops em `control/loops/`
 7. **Desafie-se**: Resolva todos os desafios em `control/challenges/`
+8. **Introdução a OOP**: Aprenda conceitos de valores e referências em `classes/others/`
+9. **Trabalhe com classes**: Crie e estude classes em `classes/area/` e `classes/product/`
+10. **Projetos POO**: Implemente desafios práticos em `classes/challenges/`
 
 ## 🤝 Contribuições
 
