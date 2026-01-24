@@ -129,6 +129,11 @@ java_review/
 │   │
 │   └── collections/            # Java Collections (List, Set, Queue, Map)
 │       └── (utility classes and examples)
+│   └── streams/                # Stream API examples and challenges
+│       ├── challenges/         # Stream challenges
+│       ├── filters/            # Filtering streams
+│       ├── others/             # Other stream usages
+│       └── reducers/           # Reducing streams
 │
 └── README.md                   # This file
 ```
@@ -223,6 +228,7 @@ java_review/
 17. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
 18. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
 19. **Integrate everything**: Combine OOP + Lambdas + Arrays + Collections in complex projects
+20. **Master streams**: Explore Stream API in `streams/`
 
 ## 🤝 Contributions
 
@@ -250,5 +256,5 @@ For questions about the concepts:
 
 ---
 
-**Last update**: January 23, 2026  
+**Last update**: January 24, 2026  
 **Status**: ✅ Project under continuous review
